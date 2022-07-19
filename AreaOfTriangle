@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class AreaOfTriangle
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the base of triangle: ");
+		float a,x;
+		a=sc.nextFloat();
+		System.out.print("Enter the height of triangle: ");
+		float b=sc.nextFloat();
+		float c=0.5f;
+		x=c*a*b;
+		System.out.println("Area of Triangle is: "+x);
+	}
+}
